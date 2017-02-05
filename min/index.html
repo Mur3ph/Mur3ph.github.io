@@ -23,11 +23,17 @@ title: Min Pauly Murphy
 					var colourScale = d3.scale.linear()
 										.domain([0, 90])
 										.range(["red", "blue"]);
+										
+					var axis = d3.svg.axis()
+										//.ticks(10);		//number of..
+										.scale(widthScale);
 			
 					var canvas = d3.select("p")
 									.append("svg")
 									.attr("width", width)
-									.attr("height", height);
+									.attr("height", height)
+									.append("g") 									//g stands for group tag
+									.attr("transform", "translate(20, 0)"); 		// Used to move and rotate chart
 									
 					var bars = canvas.selectAll("rect")
 									.data(dataArray)
@@ -37,6 +43,10 @@ title: Min Pauly Murphy
 										.attr("height", 50)
 										.attr("fill", function(eachDataElement) {return colourScale(eachDataElement);})
 										.attr("y", function(eachDataElement, index) {return index * 100;});
+			
+					canvas.append("g")
+							.attr("transform", "0, 400")
+							.call(axis);
 			</script>
 		
 	</div>
