@@ -10,6 +10,8 @@ title: Min Pauly Murphy
 		<h4> I love you Minnie, forever xoxox </h4>
 		
 		<p></p>
+		
+			<script src="http://d3js.org/d3.v4.min.js"> </script>
 			<script>
 					var dataArray = [20, 40, 50, 70, 60, 90];
 					var width = 500;
@@ -18,9 +20,8 @@ title: Min Pauly Murphy
 					var widthScale = d3.scale.linear()
 										.domain([0, 90])
 										.range([0, width]);
-					
 			
-					var canvas = d3.select("div")
+					var canvas = d3.select("p")
 									.append("svg")
 									.attr("width", width)
 									.attr("height", height);
