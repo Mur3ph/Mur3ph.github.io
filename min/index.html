@@ -19,6 +19,10 @@ title: Min Pauly Murphy
 					var widthScale = d3.scale.linear()
 										.domain([0, 90])
 										.range([0, width]);
+										
+					var colourScale = d3.scale.linear()
+										.domain([0, 90])
+										.range(["red", "blue"]);
 			
 					var canvas = d3.select("p")
 									.append("svg")
@@ -31,6 +35,7 @@ title: Min Pauly Murphy
 										.append("rect")
 										.attr("width", function(eachDataElement) {return widthScale(eachDataElement);})
 										.attr("height", 50)
+										.attr("fill", function(eachDataElement) {return colourScale(eachDataElement);})
 										.attr("y", function(eachDataElement, index) {return index * 100;});
 			</script>
 		
