@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pauly Murphy, Horrible Cop, Launches Site"
+title: "Pauly Murphy, Testing, Launches Site"
 date: 02-04-2017
 ---
 
