@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pauly Murphy, Optimzing Genetic Algorithm"
+title: "Paul Murphy, Optimzing Genetic Algorithm"
 date: 02-04-2017
 ---
 
