@@ -9,6 +9,7 @@ layout: feed
  <link href="http://Mur3ph.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://Mur3ph.github.io/blog</id>
+ 
  <author>
    <name>Paul Murphy</name>
    <email>paulmurphymainstreet@gmail.com</email>
