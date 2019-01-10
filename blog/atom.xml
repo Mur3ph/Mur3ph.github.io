@@ -10,7 +10,7 @@ layout: feed
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://Mur3ph.github.io/blog</id>
  <author>
-   <name>Pauly Murphy</name>
+   <name>Paul Murphy</name>
    <email>paulmurphymainstreet@gmail.com</email>
  </author>
 

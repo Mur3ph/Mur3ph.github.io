@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Paul Murphy, Optimzing Genetic Algorithm"
-date: 02-04-2017
+title: "Optimzing Genetic Algorithm"
+date: 05-01-2019
 ---
 
 Optimization algorithms, which try to find the minimum values of mathematical functions, are everywhere in engineering. Among other things, they’re used to 
