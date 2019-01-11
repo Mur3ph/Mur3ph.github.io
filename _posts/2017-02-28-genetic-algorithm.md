@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "Optimzing Genetic Algorithm"
 date: 05-01-2019
 ---
