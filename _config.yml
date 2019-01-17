@@ -1,3 +1,9 @@
 name: Pauly Murphy, Horrible Cop
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Name of website
+title: My website
+
+# Short description of your site
+description: A virtual proof that name is awesome!
